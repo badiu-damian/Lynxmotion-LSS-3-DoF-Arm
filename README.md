@@ -89,8 +89,7 @@ according to the official kit list.
 <img src="images/18.jpeg" width="200" alt="Step 5">
 <img src="images/19.jpeg" width="200" alt="Step 6">
 <br><br>
-<img src="images/20.jpeg" width="200" alt="Step 7">
-<img src="images/21.jpeg" width="200" alt="Step 8">
+
 <img src="images/22.jpeg" width="200" alt="Step 9">
 </p>
 
@@ -110,12 +109,9 @@ according to the official kit list.
 
 <p align="center">
 <img src="images/11.jpeg" width="200" alt="Photo 11">
-<img src="images/13.jpeg" width="200" alt="Photo 13">
 <img src="images/24.jpeg" width="200" alt="Photo 24">
 <br>
 <img src="images/25.jpeg" width="200" alt="Photo 25">
-<img src="images/26.jpeg" width="200" alt="Photo 26">
-<img src="images/29.jpeg" width="200" alt="Photo 29">
 </p>
 
 ---
@@ -125,20 +121,8 @@ according to the official kit list.
 <b>The arm segments were connected to each other using metal brackets and corresponding screws, forming the structure.</b>
 <p align="center">
 <br><br>
-<img src="images/30.jpeg" width="150" alt="Photo 30">
-<img src="images/1.jpeg" width="150" alt="Photo 1">
-<img src="images/2.jpeg" width="150" alt="Photo 2">
-<img src="images/3.jpeg" width="150" alt="Photo 3">
-<br><br>
-<img src="images/5.jpeg" width="150" alt="Photo 5">
-<img src="images/6.jpeg" width="150" alt="Photo 6">
-<img src="images/7.jpeg" width="150" alt="Photo 7">
-<img src="images/8.jpeg" width="150" alt="Photo 8">
-<br><br>
-<img src="images/28.jpeg" width="150" alt="Photo 28">
 <img src="images/10.jpeg" width="150" alt="Photo 10">
 <img src="images/12.jpeg" width="150" alt="Photo 12">
-<img src="images/27.jpeg" width="150" alt="Photo 27">
 </p>
 
 ---
