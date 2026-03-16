@@ -12,9 +12,6 @@ https://eu.robotshop.com/products/lynxmotion-lss-3-dof-robotic-arm-kit
 
 # Project: Assembly of the Lynxmotion LSS 3 DoF Arm
 
-## Author
-- Name: Coco  
-- Motto: *One step toward the future, one robotic arm for humanity.*
 
 ## General Description
 The goal of this project is the assembly and testing of the Lynxmotion LSS 3 DoF Arm during the APD laboratory sessions.
