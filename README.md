@@ -2,37 +2,28 @@
 
 ## General Description
 
-The goal of this project is the assembly and documentation of a laboratory robot, using GitHub for version control and documentation.
+The goal of this project is the assembly and documentation of the lab robot, using GitHub for collaboration and version control.
 
-The robot used in this project is:
+The robot used is:
 
-Lynxmotion SES-V2 Robotic Arm (3 DoF) w/ Smart Servos Kit  
-https://eu.robotshop.com/products/lynxmotion-lss-3-dof-robotic-arm-kit
+Lynxmotion SES-V2 Robotic Arm (3 DoF) w/ Smart Servos Kit (https://eu.robotshop.com/products/lynxmotion-lss-3-dof-robotic-arm-kit)
 
 
-# Project: Assembly of the Lynxmotion LSS 3 DoF Arm
-
+# Project: Lynxmotion LSS 3 DoF Arm Assembly
 
 ## General Description
-The goal of this project is the assembly and testing of the Lynxmotion LSS 3 DoF Arm during the APD laboratory sessions.
+The goal of this project is the assembly and testing of the Lynxmotion LSS 3 DoF Arm in the APD laboratory.
+Documentation includes assembly steps, configuration, testing, and potential improvements.
 
-The documentation includes:
-
-- assembly steps  
-- hardware configuration  
-- testing process  
-- possible improvements
-
-The robot used in this project is:
-
-Lynxmotion SES-V2 Robotic Arm (3 DoF) w/ Smart Servos Kit  
-https://eu.robotshop.com/products/lynxmotion-lss-3-dof-robotic-arm-kit
+The robot used is:
+Lynxmotion SES-V2 Robotic Arm (3 DoF) w/ Smart Servos Kit (https://eu.robotshop.com/products/lynxmotion-lss-3-dof-robotic-arm-kit)
 
 ---
 
-# Components List - Lynxmotion LSS 3 DoF Arm
 
-| Nr | Image | Component | Code/Name | Quantity | Notes |
+# Component List - Lynxmotion LSS 3 DoF Arm
+
+| No | Image | Component | Code/Name | Quantity | Notes |
 |:--:|:---:|:---|:---|:--:|:---|
 | **A** | | **Screws** | | | |
 | 1 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-screws/WebHome/PHS-02.png" width="100"> | Screw 2-56 1/4" | `PHS-02` | 27 | Imperial |
@@ -41,138 +32,139 @@ https://eu.robotshop.com/products/lynxmotion-lss-3-dof-robotic-arm-kit
 | 4 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-screws/WebHome/PHS-18.PNG" width="100"> | Screw M3 30mm | `PHS-18` | 2 | Metric |
 | 5 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-screws/WebHome/PHS-19.PNG" width="100"> | Screw M3 40mm | `PHS-19` | 2 | Metric |
 | 6 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-screws/WebHome/PHS-05.png" width="100"> | Screw 2-56 1/2" | `PHS-05` | 12 | Imperial |
-| 7 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-screws/WebHome/PHTS-01.PNG" width="100"> | Self-tapping screw #2 | `PHTS-01` | 15 | #2 x 1/4" |
+| 7 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-screws/WebHome/PHTS-01.PNG" width="100"> | Self-tapping #2 | `PHTS-01` | 15 | #2 x 1/4" |
 | 8 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-washers/WebHome/SW-04.png" width="100"> | Washers | `SW-04` | 26 | 3 x 5.6mm |
 | 9 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-nuts/WebHome/SLN-03.PNG" width="100"> | Nuts | `SLN-03` | 8 | M3 Locknut |
-
 | **B** | | **Metal Brackets** | | | |
 | 10 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-brackets/WebHome/ASB-28.png" width="100"> | Wide Bracket | `ASB-28` | 2 | Single Wide |
 | 11 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-brackets/WebHome/ASB-43.PNG" width="100"> | Mini C Bracket | `ASB-43` | 1 | Mini C |
-| 12 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-wiring/WebHome/ZT-07in.PNG" width="100"> | Zip Ties | `ZT-07in` | 4 | Cable management |
-| 13 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-miscellaneous/WebHome/AHS-EC.PNG" width="100"> | Electronic Clips | `AHS-EC` | 2 | Cable holder |
-
+| 12 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-wiring/WebHome/ZT-07in.PNG" width="100"> | Zip Ties | `ZT-07in` | 4 | Zip Tie |
+| 13 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-mechanics/ses-miscellaneous/WebHome/AHS-EC.PNG" width="100"> | Electronic Clip | `AHS-EC` | 2 | Electronic Clip |
 | **C** | | **Structure** | | | |
-| 14 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-01.PNG" width="100"> | Arm Segment #1 | `LSS-3DOF-L-01` | 1 | Link #1 |
-| 15 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-02.PNG" width="100"> | Arm Segment #2 | `LSS-3DOF-L-02` | 5 | Link #2 |
-| 16 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-03.PNG" width="100"> | Arm Segment #3 | `LSS-3DOF-L-03` | 1 | Link #3 |
-| 17 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-04.PNG" width="100"> | Arm Segment #4 | `LSS-3DOF-L-04` | 2 | Link #4 |
-| 18 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-05.PNG" width="100"> | Arm Segment #5 | `LSS-3DOF-L-05` | 1 | Link #5 |
-| 19 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-06.PNG" width="100"> | Arm Segment #6 | `LSS-3DOF-L-06` | 1 | Link #6 |
-| 20 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-base.PNG" width="100"> | Base Plate | `LSS-3DOF-BP` | 1 | Robot base |
-| 21 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-bs.PNG" width="100"> | Back Support | `LSS-3DOF-BS` | 1 | Rear support |
-| 22 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-ct-s.PNG" width="100"> | Small Cable Support | `LSS-3DOF-CT-S` | 2 | Cable guide |
-| 23 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-ct-l.PNG" width="100"> | Large Cable Support | `LSS-3DOF-CT-L` | 2 | Cable guide |
+| 14 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-01.PNG" width="100"> | Arm Link #1 | `LSS-3DOF-L-01` | 1 | Link #1 |
+| 15 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-02.PNG" width="100"> | Arm Link #2 | `LSS-3DOF-L-02` | 5 | Link #2 |
+| 16 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-03.PNG" width="100"> | Arm Link #3 | `LSS-3DOF-L-03` | 1 | Link #3 |
+| 17 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-04.PNG" width="100"> | Arm Link #4 | `LSS-3DOF-L-04` | 2 | Link #4 |
+| 18 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-05.PNG" width="100"> | Arm Link #5 | `LSS-3DOF-L-05` | 1 | Link #5 |
+| 19 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-link-06.PNG" width="100"> | Arm Link #6 | `LSS-3DOF-L-06` | 1 | Link #6 |
+| 20 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-base.PNG" width="100"> | Base Plate | `LSS-3DOF-BP` | 1 | Base Plate |
+| 21 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-bs.PNG" width="100"> | Back Support | `LSS-3DOF-BS` | 1 | Back Support |
+| 22 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-ct-s.PNG" width="100"> | Small Cable Support | `LSS-3DOF-CT-S` | 2 | Small Support |
+| 23 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-3-dof-arm/3dof-arm-quickstart/3dof-parts/WebHome/lss-3-dof-ct-l.PNG" width="100"> | Large Cable Support | `LSS-3DOF-CT-L` | 2 | Large Support |
+| **D** | | **Kits & Motors** | | | |
+| 24 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/lss-base-rotate/lss-base-rotate-g10-assembly/WebHome/LSS-BR-KT-Ghost.PNG" width="100"> | Base Rotate Kit | `LSS-BR-KT` | 1 | Base Rotate Kit |
+| 25 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/ses-v2-arms/ses-v2-mini-gripper-rc/WebHome/SES-MG-KT.PNG" width="100"> | Mini Gripper Kit | `SES-MG-KT` | 1 | Mini Gripper Kit |
+| 26 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-servos/ses-lynxmotion-smart-servo/WebHome/LSS-ST1-HORNS.PNG" width="100"> | Smart Servos | `LSS-ST1` | 3 | LSS Standard |
+| **E** | | **Electronics** | | | |
+| 27 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-modules/lss-adapter-board/WebHome/LSS-ADA.png" width="100"> | LSS Adapter | `LSS-ADA` | 1 | Interface Board |
+| 28 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-modules/lss-2io-board/WebHome/LSS-2IO.PNG" width="100"> | Microcontroller | `LSS-2IO` | 1 | Programmable Module |
+| 29 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-modules/lss-5vr/WebHome/LSS-5VR.PNG" width="100"> | Voltage Regulator | `LSS-5VR` | 1 | 5V Module |
+| 30 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-wall-adapters/WebHome/BX-12006000-XT60.PNG" width="100"> | Power Supply | `BX-12006000-XT60` | 1 | 12V with XT60 |
+| 31 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-wiring/WebHome/USBC-02.PNG" width="100"> | USB Cable | `USBC-02` | 1 | USB to Mini B |
+| 32 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-wiring/WebHome/LSS-C-100.png" width="100"> | Data Cable | `LSS-C-100-S` | 3 | 100mm |
+| 33 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-wiring/WebHome/LSS-C-100Y.png" width="100"> | Y Cable | `LSS-C-150-Y` | 1 | 150mm |
+| 34 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-wiring/WebHome/SEA-01.PNG" width="100"> | Cable Extension | `SEA-01` | 1 | 6 inch |
+| 35 | <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/servo-erector-set-system/ses-electronics/ses-wiring/WebHome/SEA-02.PNG" width="100"> | Cable Extension | `SEA-02` | 1 | 12 inch |
 
 ---
 
-# Step-by-step Assembly
+## Step-by-Step Assembly
 
-This section describes the mechanical and electronic assembly process of the Lynxmotion LSS 3 DoF Arm using images taken during the laboratory work.
+This section describes the mechanical and electronic assembly process of the
+Lynxmotion LSS 3 DoF Arm, using photos taken in the lab.
 
 ---
 
 ### Step 1 – Component Verification
 
-Before starting the assembly process, all parts were checked and verified according to the official kit component list.
+Before starting assembly, all components were inventoried and verified
+according to the official kit list.
 
 <p align="center">
-<img src="images/14.jpeg" width="200">
-<img src="images/15.jpeg" width="200">
-<img src="images/16.jpeg" width="200">
+<img src="images/14.jpeg" width="200" alt="Step 1">
+<img src="images/15.jpeg" width="200" alt="Step 2">
+<img src="images/16.jpeg" width="200" alt="Step 3">
 <br><br>
-<img src="images/17.jpeg" width="200">
-<img src="images/18.jpeg" width="200">
-<img src="images/19.jpeg" width="200">
+<img src="images/17.jpeg" width="200" alt="Step 4">
+<img src="images/18.jpeg" width="200" alt="Step 5">
+<img src="images/19.jpeg" width="200" alt="Step 6">
 <br><br>
-<img src="images/20.jpeg" width="200">
-<img src="images/21.jpeg" width="200">
-<img src="images/22.jpeg" width="200">
+<img src="images/20.jpeg" width="200" alt="Step 7">
+<img src="images/21.jpeg" width="200" alt="Step 8">
+<img src="images/22.jpeg" width="200" alt="Step 9">
 </p>
 
 <p align="center">
-<strong><em>Verification of all components before assembly:</em></strong>
+  <strong><em>Verification of all components before assembly:</em></strong>
 </p>
 
 <p align="center">
-<img src="images/23.jpeg" width="400">
+  <img src="images/23.jpeg" width="400" alt="All components">
 </p>
 
 ---
 
 ### Step 2 – Robot Base Assembly
 
-<p align="center"><b>The base plate (LSS-3DOF-BP) and the rotation support were mounted and fixed using the correct screws to ensure the stability of the robot.</b></p>
+<p align="center"><b>The base plate (LSS-3DOF-BP) and the rotation support were mounted and secured using the dedicated screws, ensuring the stability of the assembly.</b></p>
 
 <p align="center">
-<img src="images/11.jpeg" width="200">
-<img src="images/13.jpeg" width="200">
-<img src="images/24.jpeg" width="200">
+<img src="images/11.jpeg" width="200" alt="Photo 11">
+<img src="images/13.jpeg" width="200" alt="Photo 13">
+<img src="images/24.jpeg" width="200" alt="Photo 24">
 <br>
-<img src="images/25.jpeg" width="200">
-<img src="images/26.jpeg" width="200">
-<img src="images/29.jpeg" width="200">
+<img src="images/25.jpeg" width="200" alt="Photo 25">
+<img src="images/26.jpeg" width="200" alt="Photo 26">
+<img src="images/29.jpeg" width="200" alt="Photo 29">
 </p>
 
 ---
 
 ### Step 3 – Arm Segment Assembly
 
-<b>The arm segments were connected using metal brackets and screws, forming the structure of the robotic arm.</b>
-
+<b>The arm segments were connected to each other using metal brackets and corresponding screws, forming the structure.</b>
 <p align="center">
 <br><br>
-<img src="images/30.jpeg" width="150">
-<img src="images/1.jpeg" width="150">
-<img src="images/2.jpeg" width="150">
-<img src="images/3.jpeg" width="150">
+<img src="images/30.jpeg" width="150" alt="Photo 30">
+<img src="images/1.jpeg" width="150" alt="Photo 1">
+<img src="images/2.jpeg" width="150" alt="Photo 2">
+<img src="images/3.jpeg" width="150" alt="Photo 3">
 <br><br>
-<img src="images/5.jpeg" width="150">
-<img src="images/6.jpeg" width="150">
-<img src="images/7.jpeg" width="150">
-<img src="images/8.jpeg" width="150">
+<img src="images/5.jpeg" width="150" alt="Photo 5">
+<img src="images/6.jpeg" width="150" alt="Photo 6">
+<img src="images/7.jpeg" width="150" alt="Photo 7">
+<img src="images/8.jpeg" width="150" alt="Photo 8">
 <br><br>
-<img src="images/28.jpeg" width="150">
-<img src="images/10.jpeg" width="150">
-<img src="images/12.jpeg" width="150">
-<img src="images/27.jpeg" width="150">
+<img src="images/28.jpeg" width="150" alt="Photo 28">
+<img src="images/10.jpeg" width="150" alt="Photo 10">
+<img src="images/12.jpeg" width="150" alt="Photo 12">
+<img src="images/27.jpeg" width="150" alt="Photo 27">
 </p>
 
 ---
 
 ## Software Configuration
 
-Platform:  
-LSS FlowArm (Windows GUI control software)
+- Platform: LSS FlowArm (Windows application, GUI control)
+- Running examples: https://www.youtube.com/watch?v=SLJi2BDQgF8
 
-Example run:  
-https://www.youtube.com/watch?v=SLJi2BDQgF8
-
----
-
-# Compile and Upload
-
+# Build and Upload
 TODO
 
 # ETC
 
----
-
 ## Progress
 
-## Project Progress
+| No |        Stage         |                  Short Description                   | Status |
+|:--:|:--------------------:|:----------------------------------------------------:|:------:|
+|  1 | Component Verification | Inventory and integrity check of all parts         |    ✅   |
+|  2 |   Mechanical Assembly  | Base assembly, motor mounting, screws               |    ✅   |
+|  3 |  Electronic Connection | Controller wiring, cables, power supply             |    ❌   |
+|  4 |   Initial Motion Test  | Basic movement verification / test code             |    ❌   |
+|  5 |  Software Configuration| Library installation, code upload, calibration      |    ❌   |
+|  6 |      Final Test        | Complete functionality verification                 |    ❌   |
+|  7 | Documentation & Images | README writing, photos, diagrams, useful links      |    ✅   |
+|  8 |   Final Presentation   | Functional demonstration in the lab                 |    ⏳    |
 
-| Nr | Stage | Short Description | Status |
-|:--:|:------|:-----------------|:------:|
-| 1 | Component verification | Checking all parts and verifying integrity | ✅ |
-| 2 | Mechanical assembly | Base assembly, servo mounting, screws | ✅ |
-| 3 | Electronic connections | Connecting controller, cables, power supply | ❌ |
-| 4 | Initial motion test | Testing basic robot movements | ❌ |
-| 5 | Software configuration | Installing libraries, uploading code, calibration | ❌ |
-| 6 | Final testing | Complete verification of robot functionality | ❌ |
-| 7 | Documentation and images | Writing README, adding photos and useful links | ✅ |
-| 8 | Final presentation | Functional demonstration in the laboratory | ⏳ |
-
-Legend:  
-✅ Completed  
-⏳ In progress  
-❌ Not started
+Status legend:  
+✅ = Completed  ⏳ = In progress  ❌ = Not started
